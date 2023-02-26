@@ -1,16 +1,16 @@
 
 library(targets)
-library(heron)
 library(ggplot2)
 library(tarchetypes)
 library(devtools)
 library(quarto)
+library(heron)
+
+heron(4,5,6)
 
 tar_config_set(store = "posts/post-with-code/_targets",
                script = "posts/post-with-code/_targets.R")
 
-
-tar_source()
 
 # Triangle initial: 
 # A = (0,0)   B = (0,1)   C = (0.5,sqrt(3/2))

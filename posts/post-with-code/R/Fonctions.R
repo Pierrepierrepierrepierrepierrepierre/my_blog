@@ -1,3 +1,7 @@
+
+#remotes::install_github("Pierrepierrepierrepierrepierrepierre/heron")
+library(heron)
+
 # Fonction : centre_segment
 
 #' centre_segment 
@@ -131,4 +135,5 @@ plot <- ggplot(df, aes(x, y, fill = factor(triangle_id))) +
 
 return(plot)
 }
+
 
