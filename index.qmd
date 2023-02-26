@@ -10,3 +10,9 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
+
+Welcome on my blog :)
+
+![](images/DAsjfPjXkAIBoET.jpg)
+
+for the moment there is not much but stay tuned \^\^
